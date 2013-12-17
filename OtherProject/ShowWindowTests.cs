@@ -18,7 +18,7 @@ namespace OtherProject
             var window = new MainWindow();
             var mre = new ManualResetEvent(false);
             window.Closing += (sender, args) => mre.Set();
-            window.Show();
+            window.ShowDialog();
             mre.WaitOne();
         }
     }
