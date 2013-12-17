@@ -9,7 +9,7 @@ using ResourcesBox;
 
 namespace OtherProject
 {
-    public class Class1
+    public class ShowWindowTests
     {
         [Test,RequiresSTA]
         public void ShowWindowTest()
